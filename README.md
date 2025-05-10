@@ -1,1 +1,1 @@
-# Energy-Consumption-Forecasting-
+This project focuses on forecasting household energy consumption using XGBoost and time series feature engineering at multiple granularities—hourly, daily, and monthly. Leveraging the UCI Household Power Consumption dataset, it resamples and preprocesses the data, then creates lag-based and temporal features (such as previous consumption values, hour of day, day of week, and month). The pipeline trains XGBoost regression models for each time scale, evaluates performance using RMSE, and visualizes predictions against actual values.
